@@ -1,0 +1,15 @@
+{
+  "name": "safe-decimals",
+  "version": "1.0.0",
+  "description": "A Node.js module that fixes the binary floating-point rounding \"error\" at the 17th decimal place of JavaScript numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seccomiro/safe-decimals.git"
+  },
+  "author": "Diego Stiehl",
+  "license": "ISC"
+}
