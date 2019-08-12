@@ -1,6 +1,8 @@
 (() => {
-  Number.prototype.safe = function() {
-    const factor = 1000000000000000;
-    return Math.round(this * factor) / factor;
-  };
+  if (!Number.prototype.safe) {
+    Number.prototype.safe = function() {
+      const factor = 1000000000000000;
+      return Math.round(this * factor) / factor;
+    };
+  }
 })();
